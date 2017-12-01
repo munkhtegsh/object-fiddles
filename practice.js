@@ -25,28 +25,43 @@ var me = {
 
 
 
-//Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. Have the values to those keys be your favorite thing in that category.
+//Make a 'favoriteThings' object that contains the following keys: band, 
+//food, person, book, movie, holiday. Have the values to those keys be 
+//your favorite thing in that category.
 
 //Code here
+var favoriteThings = {
+  band : 'Coldplay',
+  food : 'Bantan',
+  person : 'Susy',
+  book : 'Mormon book',
+  movie : 'Person of Interest',
+  holiday : 'New Year'
+}
 
 
 
 
 
 
-
-//After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
+//After you've made your object, add another key named 'car' with 
+//the value being your favorite car and then another key named 
+//'brand' with the value being your favorite brand.
 
 //Code here
+favoriteThings.car = 'Mercedes';
+favoriteThings.brand = 'Govi';
 
 
 
 
-
-//Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
+//Now change the value of the food key in your favoriteThings 
+//object to be 'Chicken Nuggets' and change the value of the book
+//key in your favoriteThings object to be 'Harry Potter'.
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 
@@ -66,6 +81,10 @@ that is named color, with the value being the color of your backpack.
 */
 
 //Code here
+var backPack = {};
+var item = 'firstPocket';
+backPack[item] = 'chapstick';
+backPack.color = 'yellow';
 
 
 
