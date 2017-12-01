@@ -94,7 +94,7 @@ backPack.color = 'yellow';
 //After you do the above, alert your entire backPack object.
 
 //Code here
-
+//alert(backPack);
 
 
 /*
