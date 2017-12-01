@@ -10,8 +10,8 @@
 
 //Code here
 var me = {
-  name : 'Munkhtegsh',
-  age : 29
+  name: 'Munkhtegsh',
+  age: 29
 }
 
 //alert(me.name);
@@ -31,12 +31,12 @@ var me = {
 
 //Code here
 var favoriteThings = {
-  band : 'Coldplay',
-  food : 'Bantan',
-  person : 'Susy',
-  book : 'Mormon book',
-  movie : 'Person of Interest',
-  holiday : 'New Year'
+  band: 'Coldplay',
+  food: 'Bantan',
+  person: 'Susy',
+  book: 'Mormon book',
+  movie: 'Person of Interest',
+  holiday: 'New Year'
 }
 
 
@@ -122,11 +122,14 @@ var user2 = {
   birthday: '05/02/1990',
   username: 'tylermcginnis33'
 };
-//Let's say I, the user, decided to change my name and email address to the following
-// name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
+//Let's say I, the user, decided to change my name and email address
+// to the following
+// name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'.
+// Make that change.
 
-  //Code Here
-
+//Code Here
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
